@@ -1,5 +1,7 @@
 # MocafiAssessmentAngular
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/11431d7d-9698-4834-a63f-25473ad66b64/deploy-status)](https://app.netlify.com/sites/holzbrook-mocafi-assessment-angular/deploys)
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
 
 ## Development server
