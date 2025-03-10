@@ -1,1 +1,31 @@
-<p>home works!</p>
+<div class="relative min-h-screen">
+  <div class="absolute top-4 right-4">
+    <app-theme-mode-toggle></app-theme-mode-toggle>
+  </div>
+  <div class="container mx-auto flex min-h-[80vh] flex-col items-center justify-center gap-12 py-16 px-4">
+    <div class="flex flex-col items-center gap-6">
+      <h1 class="text-4xl font-bold text-center animate-in fade-in slide-in-from-bottom-4 duration-1000">
+        Mocafi Assessment
+      </h1>
+      <h2 class="text-6xl font-bold text-center animate-in fade-in slide-in-from-bottom-4 duration-1000">
+        Andrew Holbrook
+      </h2>
+      <h2 class="text-2xl font-bold text-center animate-in fade-in slide-in-from-bottom-4 duration-1000">
+        Sample User Management App
+      </h2>
+      <p class="max-w-lg text-center text-muted-foreground animate-in fade-in slide-in-from-bottom-4 duration-1000">
+        This is a sample user management app built with Angular, Tailwind CSS,
+        and GoRest.co.in API.
+      </p>
+    </div>
+
+    <div class="flex flex-col items-center gap-4 w-full max-w-sm px-4">
+      <a routerLink="/login" class="w-full">
+        <app-button [fullWidth]="true">Login</app-button>
+      </a>
+      <a routerLink="/signup" class="w-full">
+        <app-button [fullWidth]="true" variant="secondary">Signup</app-button>
+      </a>
+    </div>
+  </div>
+</div>
